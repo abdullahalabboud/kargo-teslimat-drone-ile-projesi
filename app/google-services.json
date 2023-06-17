@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "95482272383",
+    "project_id": "kargo-teslimat-drone",
+    "storage_bucket": "kargo-teslimat-drone.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:95482272383:android:44e4b9899942fdd2dc3d4a",
+        "android_client_info": {
+          "package_name": "com.example.kargo_drone_ile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "95482272383-b1qm8l8u1oji7r8kvb3rvco5mjd9rjve.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDE8emFKelmp88-Nsu8szH35QMrGdXV8ek"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "95482272383-b1qm8l8u1oji7r8kvb3rvco5mjd9rjve.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
