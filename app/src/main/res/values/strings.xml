@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">kargo_drone_ile</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="applicationTitle">Kargo Drone Ile Teslimet</string>
+    <string name="enter_cargo">Enter Cargo</string>
+    <string name="cargo_name">Cargo Name</string>
+    <string name="taker_name">Taker Name</string>
+    <string name="enter_taker_name">Enter Taker Name</string>
+    <string name="phone">Phone</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="ground_point">Ground Point</string>
+    <string name="check_gargo_qr">Check Gargo QR</string>
+    <string name="check_qr">Check QR</string>
+    <string name="select_map_point">Select Map Point</string>
+    <string name="save_cargo">Save Cargo</string>
+    <string name="create_new_mission">Create New Mission</string>
+    <string name="cargoes">Cargoes</string>
 </resources>

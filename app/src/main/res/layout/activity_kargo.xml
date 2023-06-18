@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="start"
+    android:padding="20dp"
+    android:background="@color/blueLite"
+    tools:context=".KargoActivity"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!--cargo name -->
+        <TextView
+            android:id="@+id/cargoNameTxtId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="20dp"
+            android:text="@string/cargo_name"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editTxtCargoName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="30dp"
+                android:hint="@string/enter_cargo"
+                android:textColorHint="@color/black"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:textSize="18sp"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!--taker name -->
+        <TextView
+            android:id="@+id/takerNameTxtId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="20dp"
+            android:text="@string/taker_name"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editTxtTakerName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="30dp"
+                android:hint="@string/enter_taker_name"
+                android:textColorHint="@color/black"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:textSize="18sp"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!--phone number -->
+        <TextView
+            android:id="@+id/phoneTxtId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="20dp"
+            android:text="@string/phone"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editTxtPhoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="30dp"
+                android:hint="@string/enter_phone_number"
+                android:textColorHint="@color/black"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:textSize="18sp"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!--Ground Point-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="20dp"
+            android:text="@string/ground_point"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/mapPointBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/select_map_point"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/yellow"
+            android:layout_marginTop="10dp"
+            />
+
+        <!-- Check Cargo QR -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/check_gargo_qr"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/checkQRBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/check_qr"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/yellow"
+            android:layout_marginTop="10dp"
+
+            />
+
+        <!--save cargo information button-->
+        <Button
+            android:id="@+id/saveCargoBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/save_cargo"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/green"
+            android:layout_marginTop="50dp"
+            />
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
